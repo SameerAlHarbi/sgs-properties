@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { CurrentYearComponent } from './shared/current-year/current-year.component';
 import { PropertiesListComponent } from './properties-list/properties-list.component';
+import { AddNewPropertyComponent } from './add-new-property/add-new-property.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { PropertiesListComponent } from './properties-list/properties-list.compo
     FooterComponent,
     CurrentYearComponent,
     PropertiesListComponent,
+    AddNewPropertyComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
