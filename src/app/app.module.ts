@@ -9,6 +9,7 @@ import { MainComponent } from './main/main.component';
 import { CurrentYearComponent } from './shared/current-year/current-year.component';
 import { PropertiesListComponent } from './properties-list/properties-list.component';
 import { PropertyDetailsComponent } from './property-details/property-details.component';
+import { FilterPropertyComponent } from './filter-property/filter-property.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PropertyDetailsComponent } from './property-details/property-details.co
     FooterComponent,
     CurrentYearComponent,
     PropertiesListComponent,
-    PropertyDetailsComponent
+    PropertyDetailsComponent,
+    FilterPropertyComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
