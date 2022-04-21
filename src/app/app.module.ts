@@ -11,6 +11,7 @@ import { PropertiesListComponent } from './properties-list/properties-list.compo
 import { PropertyDetailsComponent } from './property-details/property-details.component';
 import { ConfirmComponent } from './confirm/confirm.component';
 import { ConfirmControlComponent } from './shared/confirm-control/confirm-control.component';
+import { FilterPropertyComponent } from './filter-property/filter-property.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ConfirmControlComponent } from './shared/confirm-control/confirm-contro
     PropertiesListComponent,
     PropertyDetailsComponent,
     ConfirmComponent,
-    ConfirmControlComponent
+    ConfirmControlComponent,
+    FilterPropertyComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
