@@ -9,6 +9,8 @@ import { MainComponent } from './main/main.component';
 import { CurrentYearComponent } from './shared/current-year/current-year.component';
 import { PropertiesListComponent } from './properties-list/properties-list.component';
 import { PropertyDetailsComponent } from './property-details/property-details.component';
+import { ConfirmComponent } from './confirm/confirm.component';
+import { ConfirmControlComponent } from './shared/confirm-control/confirm-control.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PropertyDetailsComponent } from './property-details/property-details.co
     FooterComponent,
     CurrentYearComponent,
     PropertiesListComponent,
-    PropertyDetailsComponent
+    PropertyDetailsComponent,
+    ConfirmComponent,
+    ConfirmControlComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
