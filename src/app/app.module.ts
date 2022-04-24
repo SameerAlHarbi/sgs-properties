@@ -9,6 +9,7 @@ import { MainComponent } from './main/main.component';
 import { CurrentYearComponent } from './shared/current-year/current-year.component';
 import { PropertiesListComponent } from './properties-list/properties-list.component';
 import { AddNewPropertyComponent } from './add-new-property/add-new-property.component';
+import { PropertyGroupComponent } from './property-group/property-group.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AddNewPropertyComponent } from './add-new-property/add-new-property.com
     CurrentYearComponent,
     PropertiesListComponent,
     AddNewPropertyComponent,
+    PropertyGroupComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
