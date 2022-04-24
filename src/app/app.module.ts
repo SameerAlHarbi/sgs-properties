@@ -12,6 +12,7 @@ import { PropertyDetailsComponent } from './property-details/property-details.co
 import { ConfirmComponent } from './confirm/confirm.component';
 import { ConfirmControlComponent } from './shared/confirm-control/confirm-control.component';
 import { FilterPropertyComponent } from './filter-property/filter-property.component';
+import { PotoComponent } from './poto/poto.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { FilterPropertyComponent } from './filter-property/filter-property.compo
     ConfirmComponent,
     ConfirmControlComponent,
     FilterPropertyComponent,
+    PotoComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
