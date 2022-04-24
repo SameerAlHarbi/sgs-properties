@@ -1,15 +1,23 @@
 <h4>Property Classification</h4>
-<form action="/action_page.php">
-  <label for="fname">Group NO:</label><br />
-  <input type="text" id="Group NO" name="Group NO" /><br /><br />
-  <label for="lname">Name:</label><br />
+<form>
+  <label for="GroupNumber">Group NO:</label><br />
+  <input type="text" id="GroupNumber" name="GroupNumber" /><br /><br />
+  <label for="Name">Name:</label><br />
   <input type="text" id="Name" name="Name" /><br /><br />
-  <label for="Main Group">Main Group:<br /></label>
-  <select id="Main Group" name="Main Group" style="width: 200">
-    <option value="volvo">nothing</option>
+  <label for="MainGroup">Main Group:</label><br />
+  <select id="MainGroup" name="MainGroup" style="width: 240px; height: 40px">
+    <option value="nothing">nothing</option>
     <br />
   </select>
   <br /><br />
-  <button type="button" class="btn btn-primary btn-lg;">OK</button>
-  <button type="button" class="btn btn-secondary btn-lg">Cancel</button>
+  <button
+    style="width: 150px; margin-right: 20px"
+    type="button"
+    class="btn btn-primary"
+  >
+    OK
+  </button>
+  <button style="width: 150px" type="button" class="btn btn-primary">
+    Cancel
+  </button>
 </form>
