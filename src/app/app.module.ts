@@ -7,13 +7,14 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { CurrentYearComponent } from './shared/current-year/current-year.component';
+import { PotoComponent } from './poto/poto.component';
 
 @NgModule({
   declarations: [AppComponent
     , MainComponent
     , HeaderComponent
     , FooterComponent
-    , CurrentYearComponent],
+    , CurrentYearComponent, PotoComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
